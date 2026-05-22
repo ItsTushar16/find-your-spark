@@ -1,0 +1,168 @@
+/* style.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%);
+    color: #e0f2fe;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.conatiner {
+    max-width: 900px;
+    margin: 0 auto;
+    background: rgba(15, 23, 42, 0.95);
+    border-radius: 20px;
+    padding: 40px 30px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+    border: 1px solid #60a5fa;
+}
+
+/* Header */
+h1 {
+    text-align: center;
+    font-size: 2.8rem;
+    margin-bottom: 40px;
+    background: linear-gradient(90deg, #60a5fa, #a5b4fc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 4px 15px rgba(96, 165, 250, 0.3);
+}
+
+/* Section Styling */
+section {
+    margin-bottom: 45px;
+    background: rgba(30, 58, 138, 0.6);
+    padding: 25px;
+    border-radius: 16px;
+    border: 1px solid #93c5fd;
+    transition: transform 0.3s ease;
+}
+
+section:hover {
+    transform: translateY(-5px);
+}
+
+h2 {
+    color: #bae6fd;
+    margin-bottom: 18px;
+    font-size: 1.5rem;
+    border-bottom: 2px solid #60a5fa;
+    padding-bottom: 10px;
+}
+
+/* Quote of the Day */
+#quoteDayContainer {
+    min-height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+#dayQuote {
+    font-size: 1.35rem;
+    line-height: 1.5;
+    font-style: italic;
+    color: #e0f2fe;
+    margin-bottom: 15px;
+    /* Fixed height area for quote */
+    min-height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#dayAuthor {
+    color: #bae6fd;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+/* Top 5 Quotes */
+#topQuotesList {
+    list-style: none;
+}
+
+#topQuotesList li {
+    padding: 12px 15px;
+    background: rgba(15, 23, 42, 0.8);
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border-left: 5px solid #60a5fa;
+    transition: all 0.3s ease;
+}
+
+#topQuotesList li:hover {
+    background: rgba(96, 165, 250, 0.15);
+    transform: translateX(8px);
+}
+
+/* Random Quote Section */
+#randomQuoteContainer {
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(145deg, #1e40af, #3b82f6);
+}
+
+#randomQuote {
+    font-size: 1.45rem;
+    line-height: 1.6;
+    min-height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    font-style: italic;
+}
+
+#randomAuthor {
+    color: #dbeafe;
+    margin-top: 10px;
+    font-size: 1.15rem;
+}
+
+/* Button */
+#newQuoteBtn {
+    width: 100%;
+    padding: 18px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    background: linear-gradient(90deg, #60a5fa, #3b82f6);
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 10px 25px rgba(96, 165, 250, 0.4);
+    transition: all 0.3s ease;
+    margin-top: 10px;
+}
+
+#newQuoteBtn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 15px 30px rgba(96, 165, 250, 0.5);
+    background: linear-gradient(90deg, #93c5fd, #60a5fa);
+}
+
+#newQuoteBtn:active {
+    transform: scale(0.98);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .conatiner {
+        padding: 25px 20px;
+    }
+    
+    h1 {
+        font-size: 2.3rem;
+    }
+}

@@ -1,4 +1,4 @@
-# ✨ Find Your Spark
+#  Find Your Spark ✨
 
 A modern and elegant Quote Generator web application built using HTML, CSS, and JavaScript.
 
@@ -27,9 +27,9 @@ This project fetches inspirational quotes from a public API and presents them wi
 
 ## 🛠️ Tech Stack
 
-- HTML5
-- CSS3
-- JavaScript (ES6)
+- HTML
+- CSS
+- JavaScript
 
 ---
 

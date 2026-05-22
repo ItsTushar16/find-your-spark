@@ -6,31 +6,30 @@ This project fetches inspirational quotes from a public API and presents them wi
 
 ---
 
+## 🌐 Live Demo
+
+🔗 https://itstushar16.github.io/find-your-spark/
+
+---
+
 ## 🚀 Features
 
 - 🌟 Quote of the Day
 - 🎲 Random Quote Generator
 - 🏆 Top 5 Quotes Section
 - ⚡ Real-time API Integration
-- 🎨 Modern Glassmorphism Inspired UI
 - 📱 Fully Responsive Design
 - 🔄 Dynamic Content Rendering
 - 🧠 Clean and Beginner-Friendly JavaScript Code
 
 ---
 
-## 📸 Preview
-
-<img width="100%" alt="Project Preview" src="https://via.placeholder.com/1200x600.png?text=Find+Your+Spark+Preview">
-
----
 
 ## 🛠️ Tech Stack
 
 - HTML5
 - CSS3
 - JavaScript (ES6)
-- REST API
 
 ---
 
@@ -82,7 +81,7 @@ This project helped practice:
 Clone the project:
 
 ```bash
-git clone https://github.com/your-username/find-your-spark.git
+git clone https://github.com/ItsTushar16/find-your-spark.git
 ```
 
 Go to the project directory:
@@ -112,12 +111,6 @@ Run using Live Server or open `index.html` in browser.
 Contributions, ideas, and suggestions are welcome.
 
 Feel free to fork the repository and submit a pull request.
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License.
 
 ---
 
